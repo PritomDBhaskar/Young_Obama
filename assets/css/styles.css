@@ -20,8 +20,8 @@ body {
   justify-content: flex-start;
   padding: 40px 120px;
 }
-.section-wrapper .information-wrapper-top {
-}
+/* .section-wrapper .information-wrapper-top {
+} */
 .section-wrapper-first .information-wrapper-top .name-wrapper {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -53,8 +53,8 @@ body {
   .address-list-item {
   color: #707070;
 }
-.section-wrapper .img-wrapper-top {
-}
+/* .section-wrapper .img-wrapper-top {
+} */
 /* Second section */
 .section-wrapper-second {
   display: flex;
@@ -62,8 +62,8 @@ body {
   justify-content: flex-start;
   padding: 40px 120px;
 }
-.section-wrapper-second .img-wrapper-middle {
-}
+/* .section-wrapper-second .img-wrapper-middle {
+} */
 .section-wrapper-second .information-wrapper-middle {
   padding-top: 25px;
   padding-left: 50px;
@@ -102,6 +102,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  gap: 30px 0px;
   padding: 40px 120px;
 }
 .section-wrapper-third .bottom-section-heading {
@@ -111,17 +112,17 @@ body {
 }
 
 .section-wrapper-third .services-wrapper {
-  padding: 0px 10px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 10px;
 }
 
 .section-wrapper-third .services-wrapper .services {
   border: 1px solid #707070;
   border-width: thin;
-  width: 33%;
+  width: 30%;
   padding: 15px;
-  margin: 40px 17px;
 }
 .section-wrapper-third .services-wrapper .services .services-img {
   padding-top: 5px;
