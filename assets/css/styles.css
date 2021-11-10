@@ -58,15 +58,17 @@ body {
 /* Second section */
 .section-wrapper-second {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: flex-start;
   padding: 40px 120px;
 }
-/* .section-wrapper-second .img-wrapper-middle {
-} */
+.section-wrapper-second .img-wrapper-middle {
+  width: 30%;
+}
 .section-wrapper-second .information-wrapper-middle {
   padding-top: 25px;
-  padding-left: 50px;
+  padding-left: 200px;
+  width: 70%;
 }
 .section-wrapper-second .information-wrapper-middle .second-section-heading {
   color: #1e1d1d;
